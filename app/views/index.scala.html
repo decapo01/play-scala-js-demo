@@ -15,6 +15,11 @@
      * Get an `Html` object by calling the built-in Play welcome
      * template and passing a `String` message.
      *@
-    @play20.welcome(message, style = "Scala")
+     <h1>Scala Js Demo</h1>
+
+     <script src="@routes.Assets.versioned("javascripts/client-fastopt.js")"></script>
+     <script>
+     	example.MyJsApp().main();
+     </script>
 
 }
